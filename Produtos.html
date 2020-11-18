@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   
+     <meta charset="UTF-8">
+     <title>Produtos - Full Stack </title>
+     <link rel="stylesheet" href="./CSS/estilo.css">
+
+     
+        
+</head>
+<body>
+    <!--Inicio do Menu -->
+        <nav class="menu">
+        <ul>
+            <td align="center" width="25%"><a href="inicio.html"><img width="100px" src="./Imagens/logo.jpg" alt="Full Stack Eletro"></a></td>
+            <td align="center" width="25%"><a href="produtos.html">Nossos Produtos </a></td>
+            <td align="center" width="25%"><a href="nossas_lojas.html">Lojas</a></td>
+            <td align="center" width="25%"><a href="contato.html"> Contato </a></td>
+        </ul>
+    
+       </nav>
+    <!--Fim do Menu -->
+
+    <h2>Produtos</h2>
+    <hr>
+    <table border="0" width="100%" cellpadding="2" class="categoria">
+        <tr>
+            <td rowspan="5" width="20%" valign="top">
+                <input type"button" value="Categorias"> 
+                <br>
+                <ul>
+                    
+                    <li>Geladeiras (3)</li>
+                    <li>Televisores (5)</li>
+                    <li>Fogões (4)</li>
+                    
+                <li onclick="exibir_todos()">Todos (12)</li>
+                <li onclick="exibir_categoria('geladeira')">Geladeiras (2)</li>
+                <li onclick="exibir_categoria('fogao')">Fogões (2)</li>
+                <li onclick="exibir_categoria('televisor')">Televisores (3)</li>
+                    
+
+        
+            </td>
+
+            <td width="20%" align="center" valign="bottom">
+                <img src="./Imagens/geladeira frost free brastemp.jpg" width="120px">
+                <br>
+                <font face="arial" size="2">Geladeira Frost Free Brastemp </font>
+                <hr>
+                <font face="arial" size="2"><strike>R$ 5.389,00</strike></font><br>
+                <font face="arial" size="4" color="red">R$ 4.999,00</font><br> 
+            </td>
+            <td width="20%" align="center" valign="bottom">
+                <img src="./Imagens/geladeira frost free inverse.jpg" width="120px">
+                <br>
+                <font face="arial" size="2">Geladeira Frost Free Inverse </font>
+                <hr>
+                <font face="arial" size="2"><strike>R$ 5.890,00</strike></font><br>
+                <font face="arial" size="4" color="red">R$ 5.349,00</font><br> 
+            </td>
+            <td width="20%" align="center" valign="bottom">
+                <img src="./Imagens/geladeira preta brastemp.jpg" width="120px">
+                <br>
+                <font face="arial" size="2">Geladeira Frost Free Brastemp Preta </font>
+                <hr>
+                <font face="arial" size="2"><strike>R$ 5.249,00</strike></font><br>
+                <font face="arial" size="4" color="red">R$ 4.780,00</font><br> 
+            </td>
+            <td width="20%" align="center" valign="bottom">
+                <img src="./Imagens/fogão cooktop 4 bocas.jpg" width="120px">
+                <br>
+                <font face="arial" size="2">Fogão Cooktop 4 bocas</font>
+                <hr>
+                <font face="arial" size="2"><strike>R$ 1.897,00</strike></font><br>
+                <font face="arial" size="4" color="red">R$ 1.299,99</font><br> 
+            </td>
+            <td width="20%" align="center" valign="bottom">
+                <img src="./Imagens/fogão cooktop 5 bocas.jpg" width="120px">
+                <br>
+                <font face="arial" size="2">Fogão cooktop 5 bocas </font>
+                <hr>
+                <font face="arial" size="2"><strike>R$ 2.399,00</strike></font><br>
+                <font face="arial" size="4" color="red">R$ 1.899,00</font><br> 
+            </td>
+            <td width="20%" align="center" valign="bottom">
+                <img src="./Imagens/fogão brastemp 5 bocas.jpg" width="120px">
+                <br>
+                <font face="arial" size="2">Fogão Brastemp 5 bocas </font>
+                <hr>
+                <font face="arial" size="2"><strike>R$ 1.899,00</strike></font><br>
+                <font face="arial" size="4" color="red">R$ 1.599,00</font><br> 
+            </td>
+            <td width="20%" align="center" valign="bottom">
+                <img src="./Imagens/fogão brastemp 4 bocas.jpg" width="120px">
+                <br>
+                <font face="arial" size="2">Fogão Brastemp 4 bocas </font>
+                <hr>
+                <font face="arial" size="2"><strike>R$ 1.599,00</strike></font><br>
+                <font face="arial" size="4" color="red">R$ 1.299,00</font><br> 
+            </td>
+            <td width="20%" align="center" valign="bottom">
+                <img src="./Imagens/tv 50 led.jpg" width="120px">
+                <br>
+                <font face="arial" size="2">Televisor Led 50 </font>
+                <hr>
+                <font face="arial" size="2"><strike>R$ 4.399,00</strike></font><br>
+                <font face="arial" size="4" color="red">R$ 3.999,00</font><br> 
+            </td>
+            <td width="20%" align="center" valign="bottom">
+                <img src="./Imagens/tv curved 65.jpg" width="120px">
+                <br>
+                <font face="arial" size="2">Televisor curved 65 </font>
+                <hr>
+                <font face="arial" size="2"><strike>R$ 14.999,00</strike></font><br>
+                <font face="arial" size="4" color="red">R$ 13.999,00</font><br> 
+            </td>
+            <td width="20%" align="center" valign="bottom">
+                <img src="./Imagens/Tv samsung 65.jpg" width="120px">
+                <br>
+                <font face="arial" size="2">Televisor Samsung 65  </font>
+                <hr>
+                <font face="arial" size="2"><strike>R$ 5.389,00</strike></font><br>
+                <font face="arial" size="4" color="red">R$ 4.999,00</font><br> 
+            </td>
+            <td width="20%" align="center" valign="bottom">
+                <img src="./Imagens/tv sony 8k.jpg" width="120px">
+                <br>
+                <font face="arial" size="2">Televisor Sony 8k  </font>
+                <hr>
+                <font face="arial" size="2"><strike>R$ 10.999,00</strike></font><br>
+                <font face="arial" size="4" color="red">R$ 10.239,90</font><br> 
+            </td>
+            <td width="20%" align="center" valign="bottom">
+                <img src="./Imagens/tv tcl 50.jpg" width="120px">
+                <br>
+                <font face="arial" size="2">Televisor TCL </font>
+                <hr>
+                <font face="arial" size="2"><strike>R$ 3.499,90</strike></font><br>
+                <font face="arial" size="4" color="red">R$ 2.999,90</font><br> 
+            </td>
+        </tr>
+    </table>
+
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <br><br><br><br><br>
+    <center>
+        <span>
+            <p id="formas_pagamento"><b>Formas de pagamento;</b></p>
+            <img src="./Imagens/forma de pagamento.jpg">
+
+        </span>
+
+
+
+    </center>
+  
